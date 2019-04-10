@@ -1,0 +1,3 @@
+[submodule "sunwell"]
+	path = sunwell
+	url = https://github.com/HearthSim/Sunwell

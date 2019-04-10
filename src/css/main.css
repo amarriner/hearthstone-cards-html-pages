@@ -7,6 +7,70 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
+#card {
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#card-art {
+    float: left;
+}
+
+#card-stats {
+    float: left;
+}
+
+#card-stats div {
+    margin: 5px;
+}
+
+#card-stats .cost div {
+    float: left;
+    font-size: 200%;
+    font-weight: 700;
+    height: 40px;
+    text-align: center;
+    width: 40px;
+}
+
+#card-stats .cost img {
+    height: 40px;
+    width: 40px;
+}
+
+#card-stats .cost .durability {
+    background-image: url("../img/durability.png");
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+}
+
+#card-stats .icons {
+    clear: both;
+}
+
+#card-stats .icons div {
+    float: left;
+    height: 40px;
+    text-align: center;
+    width: 40px;
+}
+
+#card-stats .icons div img {
+    height: 40px;
+}
+
+#card-stats .type {
+    clear:both;
+}
+
+#card-stats .flavor {
+    font-style: italic;
+}
+
+body {
+    font-family: Libre Franklin, Arial, Helvetica, sans-serif;
+}
  
 /* ==========================================================================
    Base styles: opinionated defaults

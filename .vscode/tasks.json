@@ -11,10 +11,27 @@
                 "isDefault": true
             },
             "problemMatcher": []
+        },        {
+            "type": "npm",
+            "script": "updateCards", 
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
         },
         {
             "type": "npm",
             "script": "run", 
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "type": "npm",
+            "script": "server", 
             "group": {
                 "kind": "build",
                 "isDefault": true
