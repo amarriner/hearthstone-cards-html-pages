@@ -1,0 +1,19 @@
+{
+  "name": "hearthstone-cards-html-pages",
+  "version": "1.0.0",
+  "description": "Small Web Pages to Display Hearthstone Card Information",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "run": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update": "npm install"
+  },
+  "author": "Aaron Marriner",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
